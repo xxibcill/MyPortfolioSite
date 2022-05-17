@@ -8,7 +8,7 @@ type AppProps = {
 
 const Header = ({ message }: AppProps) => {
     return (
-        <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-dark fixed top-0 left-0 right-0">
+        <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-dark fixed top-0 left-0 right-0 z-20">
             <div className="container flex flex-wrap justify-between items-center mx-auto">
                 <a href="#">
                     <a className="text-white text-lg" >Chayanin<br/>Chanthananond</a>

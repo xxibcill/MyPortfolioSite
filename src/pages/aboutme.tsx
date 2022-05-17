@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 const IndexPage = () => {
   return (
       <Layout>
-        <div className="container w-screen h-screen py-28 mx-auto bg-gray-dark">
+        <div className="container w-screen h-screen py-28 mx-auto bg-gray-dark ">
           <h1 className="text-white text-5xl antialiased font-extrabold">Who am I</h1>
         </div>
         <div className="container w-screen h-screen py-28 mx-auto bg-gray">

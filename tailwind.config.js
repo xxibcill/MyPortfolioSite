@@ -9,6 +9,7 @@ module.exports = {
       'secondary-highlight' : '#A61DFC',
       'tertiary': '#FA58B6',
       'dark' : '#1A1A40',
+      'card-dark' : '#17005C',
       'blue': '#1fb6ff',
       'purple': '#7e5bef',
       'pink': '#ff49db',
@@ -17,8 +18,11 @@ module.exports = {
       'yellow': '#ffc82c',
       'gray-dark': '#273444',
       'gray': '#8492a6',
+      'gray-300': '#D1D5DB',
+      'gray-400': '#9CA3AF',
       'gray-light': '#d3dce6',
-      'white': '#ffffff'
+      'white': '#ffffff',
+      'salmon': '#DC7F7F'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
