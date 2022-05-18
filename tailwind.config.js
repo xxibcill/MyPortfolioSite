@@ -22,7 +22,8 @@ module.exports = {
       'gray-400': '#9CA3AF',
       'gray-light': '#d3dce6',
       'white': '#ffffff',
-      'salmon': '#DC7F7F'
+      'salmon': '#DC7F7F',
+      'transparent': '#00000000'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],

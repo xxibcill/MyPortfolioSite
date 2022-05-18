@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
-
+import Abstract from "../assets/svg/shape/abstract.svg"
 
 const skillDetail = {
   dev : "Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. ",
@@ -14,9 +14,10 @@ const skillDetail = {
 const AboutMe = () => {
   return (
       <Layout>
-        <div className="container flex flex-col h-screen mx-auto ">
-          <h1 className="text-3xl text-white font-light pl-24 mt-36 mb-24">Who Am I</h1>
-          <div className="container flex flex-wrap justify-around items-center px-48">
+        <Abstract className="fill-gray absolute left-10 top-80 z-10 w-[700px] h-[700px]" />
+        <div className="container static flex flex-col h-screen mx-auto">
+          <h1 className="text-3xl text-white font-light pl-24 mt-36 mb-24 z-20 ">Who Am I</h1>
+          <div className="container flex flex-wrap justify-around items-center px-48 z-20">
             <StaticImage 
               src="../images/pfp.png" 
               alt="A Profile Picture" 
@@ -37,7 +38,7 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        <div className="container flex flex-col h-screen mx-auto ">
+        <div className="container flex flex-col h-screen mx-auto">
           <h1 className="text-3xl text-white font-light pl-24 mt-36 mb-24">Interest</h1>
         </div>
       </Layout>
