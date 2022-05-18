@@ -13,7 +13,10 @@ const config: GatsbyConfig = {
           include: /assets/ // See below to configure properly
         }
       }
-    }
+    },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, // Needed for dynamic images
   ],
 }
 

@@ -5,7 +5,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
         <div className="bg-primary h-fit">
             <Header message="Hello"/>
-            <div className="global-wrapper">{children}</div>
+            {children}
         </div>
     )
 }

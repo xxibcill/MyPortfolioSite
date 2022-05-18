@@ -2,14 +2,14 @@ import * as React from "react"
 import Layout from "../components/layout"
 import HiremeButton from '../components/HiremeButton'
 import SkillCard from "../components/skillCard"
-import Coding from "../assets/coding.svg";
-import Webdesign from "../assets/webdesign.svg";
-import Automation from "../assets/automation.svg";
-import ArrowRightCircle from "../assets/arrow-right-circle.svg";
-import ProcessAutomation from "../assets/process-automation.svg";
-import BusinessReport from "../assets/business-report.svg";
-import Excel from "../assets/excel.svg";
-import WorkProcess from "../assets/work-process.svg";
+import Coding from "../assets/svg//coding.svg";
+import Webdesign from "../assets/svg//webdesign.svg";
+import Automation from "../assets/svg//automation.svg";
+import ArrowRightCircle from "../assets/svg//arrow-right-circle.svg";
+import ProcessAutomation from "../assets/svg//process-automation.svg";
+import BusinessReport from "../assets/svg//business-report.svg";
+import Excel from "../assets/svg//excel.svg";
+import WorkProcess from "../assets/svg//work-process.svg";
 
 const skillDetail = {
   dev : "Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. ",
