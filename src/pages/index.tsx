@@ -55,7 +55,7 @@ const IndexPage = () => {
             </a>
           </div>
         </div>
-        <div className="contianer w-full h-screen flex flex-col items-center">
+        <div className="contianer w-full h-screen flex flex-col justify-center items-center">
           <h1 className="text-4xl text-white my-36">My Previous Experience</h1>
           <div className="container flex flex-wrap justify-around px-48">
             <div className="max-w-[350px] max-h-[350px] flex flex-wrap justify-between items-center p-5">
