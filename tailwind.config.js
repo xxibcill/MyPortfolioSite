@@ -16,14 +16,14 @@ module.exports = {
       'orange': '#ff7849',
       'green': '#13ce66',
       'yellow': '#ffc82c',
-      'gray-dark': '#273444',
       'gray': '#8492a6',
+      'gray-dark': '#273444',
       'gray-300': '#D1D5DB',
       'gray-400': '#9CA3AF',
       'gray-light': '#d3dce6',
+      'black': '#000000',
       'white': '#ffffff',
       'salmon': '#DC7F7F',
-      'transparent': '#00000000',
       'blue-light': '#D9E8F6'
     },
     fontFamily: {
