@@ -24,13 +24,18 @@ module.exports = {
       'black': '#000000',
       'white': '#ffffff',
       'salmon': '#DC7F7F',
-      'blue-light': '#D9E8F6'
+      'blue-light': '#D9E8F6',
+      'see-through': '#343434'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'recipe': "url('/img/recipe.jpg')",
+      }
+    },
   },
   plugins: [],
 }
