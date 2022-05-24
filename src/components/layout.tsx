@@ -1,5 +1,6 @@
 import * as React from "react"
 import Header from "../components/header"
+import Footer from "./footer"
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
@@ -10,6 +11,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 <a className="lg:text-lg sm:text-sm md:text-md" >x<br/>x</a>
             </div>  */}
             {children}
+            <Footer/>
         </div>
     )
 }
