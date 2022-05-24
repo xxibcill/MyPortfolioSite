@@ -31,7 +31,7 @@ const IndexPage = () => {
                 Developer / <br/>
                 Software Engineer<br/>
               </h1>
-              <HiremeButton/>
+              <HiremeButton />
             </div>
           </div>
         </div>

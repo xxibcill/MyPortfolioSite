@@ -1,25 +1,23 @@
 import * as React from "react"
 
-const HiremeButton = () => {
+interface HiremeButtonProps {
+    isHiddenOnMobile?: Boolean;
+}
+
+const HiremeButton : React.FunctionComponent<HiremeButtonProps> = (props) => {
     return (
         <button 
-            type="button" className="
-            text-white 
-            bg-secondary
-            hover:bg-secondary-highlight 
-            hover:font-bold
-            font-medium 
-            rounded-md 
-            text-md 
-            w-32
-            py-2 
-            outline-none 
-            shadow-md
-            "
+            type="button" 
+            className={`text-white bg-secondary hover:bg-secondary-highlight  hover:font-bold font-medium  rounded-md  text-md  w-32 py-2  outline-none  shadow-md ${props.isHiddenOnMobile? "hidden lg:block" : ""}`}
         >
             Offer me JOB!
         </button>
-    ) as any as JSX.Element
+    )
 }
+
+
+HiremeButton.defaultProps = {
+    isHiddenOnMobile: false
+};
 
 export default HiremeButton;
