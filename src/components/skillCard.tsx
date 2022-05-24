@@ -2,10 +2,26 @@ import * as React from "react"
 
 const SkillCard = ({ children ,header ,detail }: { children: React.ReactNode ,header :String ,detail :String }) => {
     return (
-        <div className="max-w-sm bg-card-dark rounded-lg shadow-md flex flex-col justify-center items-center h-[480px] px-10">
+        <div className="
+            max-w-sm 
+            bg-card-dark 
+            rounded-lg 
+            shadow-md 
+            flex 
+            flex-col 
+            justify-center 
+            items-center 
+            h-fit 
+            lg:h-[480px] 
+            p-6
+            mx-8
+            my-3
+            lg:m-0
+        "
+        >
             {children}
-            <h2 className="text-white text-xl mb-5">{header}</h2>
-            <p className="mb-3 font-normal text-gray-400">
+            <h2 className="text-white text-sm lg:text-md lg:text-xl mb-5 mt-2">{header}</h2>
+            <p className="text-sm mb-3 font-normal text-gray-400">
                 {detail}
             </p>
         </div>
