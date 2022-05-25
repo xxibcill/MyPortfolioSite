@@ -4,7 +4,7 @@ import Footer from "./footer"
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
-        <div className="bg-dark h-fit">
+        <div className="bg-dark h-fit font-pridi">
             <Header message="Hello"/>
             {/* for measure height of header */}
             {/* <div className="bg-white py-2">

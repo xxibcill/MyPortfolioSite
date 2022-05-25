@@ -5,8 +5,8 @@ This Repositories is myPersonal Website Portfolio for Frontend Developer Jobs.
 This website is built using [Gatsby](https://www.gatsbyjs.com/), a modern static website generator.
 
 ## Task
-[] Add Experience page
-[] do Responsive design
+[x] Add Experience page
+[x] do Responsive design
 [] Make it Responsive
 [] Add SVG Animation
 [] add Threejs
