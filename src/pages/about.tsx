@@ -43,15 +43,15 @@ const AboutMe = () => {
               className=" w-[150px] h-[150px] mb-10 p-5 md:w-[240px] md:h-[240px] lg:w-[350px] lg:h-[350px] flex flex-wrap justify-between items-center" 
             />
             <div className="max-w-sm px-5 lg:max-w-xl">
-              <h2 className="text-white text-lg font-regular mb-5  lg:text-xl ">
+              <h2 className="text-white text-lg font-regular mb-5 lg:text-2xl ">
                 ชญานิน จัทนานนท์ <br/>
                 Chayanin Chanthananond<br/>
               </h2>
-              <p className="text-gray text-sm">
+              <p className="text-gray text-sm lg:text-base">
                 Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball.
               </p>
               <br/>
-              <p className="text-gray text-sm">
+              <p className="text-gray text-sm lg:text-base">
                 Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. 
               </p>
             </div>
@@ -63,7 +63,7 @@ const AboutMe = () => {
             <Diet className="interest-card-icon"/>
             <div className="max-w-xl">
               <h2 className="interest-card-header">{"Food & Drinks"}</h2>
-              <p className="text-gray text-sm">
+              <p className="text-gray text-sm lg:text-base">
                 Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa.
               </p>
             </div>
@@ -72,7 +72,7 @@ const AboutMe = () => {
             <Mathematics className="interest-card-icon"/>
             <div className="max-w-xl">
               <h2 className="interest-card-header">{"Mathematics"}</h2>
-              <p className="text-gray text-sm">
+              <p className="text-gray text-sm lg:text-base">
                 Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa.
               </p>
             </div>
@@ -81,7 +81,7 @@ const AboutMe = () => {
             <Design className="interest-card-icon"/>
             <div className="max-w-xl">
               <h2 className="interest-card-header">{"Art & Design"}</h2>
-              <p className="text-gray text-sm">
+              <p className="text-gray text-sm lg:text-base">
                 Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa.
               </p>
             </div>

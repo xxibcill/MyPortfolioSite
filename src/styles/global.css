@@ -9,12 +9,15 @@
         @apply container flex flex-wrap flex-col justify-center items-center w-7/12 my-5 lg:flex-row lg:w-full lg:px-48 lg:mb-24;
     }
     .interest-card-header {
-        @apply text-white text-base text-center lg:text-left mb-2;
+        @apply text-white text-base text-center lg:text-xl lg:text-left mb-2;
     }
     .interest-card-icon {
         @apply w-[50px] h-[50px] mb-2 lg:w-[100px] lg:h-[100px] lg:mx-24;
     }
     .skill-icon {
         @apply w-[45px] h-[45px] mx-3 my-1 lg:w-[100px] lg:h-[100px] lg:m-5;
+    }
+    .exp-card {
+        @apply md:w-3/4 lg:w-full flex flex-col bg-black p-8 my-2;
     }
 }

@@ -20,8 +20,8 @@ const SkillCard = ({ children ,header ,detail }: { children: React.ReactNode ,he
         "
         >
             {children}
-            <h2 className="text-white text-sm lg:text-md lg:text-xl mb-5 mt-2">{header}</h2>
-            <p className="text-sm mb-3 font-normal text-gray-400">
+            <h2 className="text-white text-base lg:text-xl mb-5 mt-2">{header}</h2>
+            <p className="text-sm lg:text-base mb-3 font-normal text-gray-400">
                 {detail}
             </p>
         </div>

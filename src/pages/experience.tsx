@@ -24,7 +24,7 @@ const Experience = () => {
               </div>
               <div className="w-full flex flex-col bg-black p-8 my-2">
                 <h4 className="text-sm text-gray">{"June 2020 - April 2022"}</h4>
-                <h2 className="text-xl mt-2 mb-4 text-white">{"RPA Developer at Round 2 Solutions"}</h2>
+                <h2 className="text-xl mt-2 mb-4 text-white">{"RPA Developer at Round2 Solutions"}</h2>
                 <p className="text-md text-gray-400">{"Work on Internal project using React and Redux , the project is implement some feature of basic CRM.I'm responsible for create UI using React and design using Adobe XD."}</p>
               </div>
             </div>
