@@ -15,14 +15,6 @@ import TypescriptSVG from "../assets/svg/typescript.svg"
 import NodejsSVG from "../assets/svg/nodejs.svg"
 import FigmaSVG from "../assets/svg/figma.svg"
 
-
-const skillDetail = {
-  dev : "Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. ",
-  scrap : "Web Scraping shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. ",
-  automation : "Automation shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball."
-}
-
-
 // markup
 const AboutMe = () => {
   return (
@@ -38,7 +30,7 @@ const AboutMe = () => {
           <h1 className="text-white font-light w-full text-center  text-2xl mb-5 md:text-3xl md:mb-12 lg:text-left lg:mb-24 z-20 ">Who Am I</h1>
           <div className="container flex flex-col md:flex-row flex-wrap justify-around items-center md:px-12 lg:px-48 z-20">
             <StaticImage 
-              src="../images/pfp.png" 
+              src="../images/profile.jpg" 
               alt="Profile Picture" 
               className=" w-[150px] h-[150px] mb-10 p-5 md:w-[240px] md:h-[240px] lg:w-[350px] lg:h-[350px] flex flex-wrap justify-between items-center" 
             />
@@ -48,11 +40,7 @@ const AboutMe = () => {
                 Chayanin Chanthananond<br/>
               </h2>
               <p className="text-gray text-sm lg:text-base">
-                Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball.
-              </p>
-              <br/>
-              <p className="text-gray text-sm lg:text-base">
-                Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. 
+              สวัสดีครับ ผมชื่อเจ เกิดที่จังหวัดนครราชสีมาเมื่อปี 1997 ปัจจุบันอายุ 24 ปีเริ่มเขาใกล้ 25 แล้ว เรียนจบจากสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ในปี 2020 ชอบคอมพิวเตอร์มาตั้งแต่สมัยเด็ก สมัยเรียนอยู่ชั้นประถมก็ได้นั่งหน้าจอคอมเล่นเกมแล้ว สมัยที่ยังใช้อินเตอร์เน็ตแบบ dial พอโตขึ้นมาหน่อยก็ได้ดูหนังเรื่อง  The Internship (2013) ที่เกี่ยวกับการฝึกงานที่ google ก็เลยมีความตั้งใจที่จะทำงานในบริษัทไอทีตั้งแต่ตอนนั้นมา ตอนม.ปลาย ได้มีโอกาศเข้าค่ายโอลิมปิกวิชาการ (สอวน.) สาขาฟิสิกส์ เพราะตอนนั้นเริ่มหลงใหลฟิสิกส์และคณิตศาสตร์ ผ่านไปได้จนถึงการแข่งขันฟิสิกส์โอลิมปิกระดับชาติ (TPhO) พอจบม.6 จึงตัดสินใจเข้าเรียนวิศวกรรมคอมพิวเตอร์
               </p>
             </div>
           </div>
@@ -64,7 +52,7 @@ const AboutMe = () => {
             <div className="max-w-xl">
               <h2 className="interest-card-header">{"Food & Drinks"}</h2>
               <p className="text-gray text-sm lg:text-base">
-                Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa.
+                ตอนเด็กๆ สมัยประถมเวลาที่ต้องอยู่บ้านคนเดียว ไม่มีใครทำอาหารให้กิน ก็เลยต้องทำกินเอง บ่อยๆครั้งนานไป ก็สามารถทำได้หลายหลายเมนูมากขึ้น ใส่ใจในรายละเอียดของรสชาติ หน้าตาความน่ากิน เวลาที่ไปทานอาหารนอกบ้าน ได้เจอกับอาหารที่หลากหลาย ก็เลยมีความสนใจเกี่ยวกับอาหารและเครื่องดื่มในหลายด้าน กระบวนการปรุง วัตถุดิบ หน้าตา รสชาติ หรือแม้แต่ branding ของร้านอาหาร
               </p>
             </div>
           </div>
@@ -73,7 +61,7 @@ const AboutMe = () => {
             <div className="max-w-xl">
               <h2 className="interest-card-header">{"Mathematics"}</h2>
               <p className="text-gray text-sm lg:text-base">
-                Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa.
+                "The laws of Nature are written in the language of mathematics" Galileo Galilei คณิตศาสตร์อาจเป็นสิ่งที่เกลียดสำหรับใครหลายคน อาจะเป็นเพราะมันไม่ได้ถูกนำเสนอในแบบที่เข้าถึงได้ง่าย ไม่ค่อยมีใครแสดงให้เห็นถึงความสวยงามของมันให้คนทั่วไปได้เห็นกันมากนัก ทั้งยังรูปแบบการสอนในโรงเรียนเป็นแบบจำสูตร หรือแค่ใช้มันเป็นแค่เครื่องมือซะส่วนใหญ่ แต่ถ้ามันถูกแสดงให้คนสามารถได้เห็นถึงความสวยงานจริงๆของมัน คนๆนั้นก็จะสามารถรักคณิตศาสตร์ได้
               </p>
             </div>
           </div>
@@ -82,7 +70,7 @@ const AboutMe = () => {
             <div className="max-w-xl">
               <h2 className="interest-card-header">{"Art & Design"}</h2>
               <p className="text-gray text-sm lg:text-base">
-                Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa.
+                พอได้มาเรียนวิชา UX/UI design ในคลาสเรียนของมหาวิทยาลัย ทำให้ได้เห็นความพยายามและกระบวนการทำงานของนักออกแบบ หลังจากนั้นก็มองสิ่งสิ่งรอบตัวเปลี่ยนไป ไม่ว่าจะเป็น UI ของ app ต่างๆ หรือสิ่งของ  แพ็กเกจ สถาปัตยกรรม ทุกอย่างจำเป็นต้องมี designer มาออกแบบโดนคิดถึงการใช้งานเป็นหลัก
               </p>
             </div>
           </div>

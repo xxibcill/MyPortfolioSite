@@ -12,11 +12,10 @@ import Excel from "../assets/svg//excel.svg";
 import WorkProcess from "../assets/svg//work-process.svg";
 
 const skillDetail = {
-  dev : "Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. ",
-  scrap : "Web Scraping shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. ",
-  automation : "Automation shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball."
+  dev : "พัฒนาเว็บไซต์ทั้งแบบ content based และ application based โดยใช้ react เป็นหลัก และยังสามารถออกแบบเว็บได้ในระดับเบื้องต้น สามารถใช้ SVG animation หรือ Three js ให้เว็บไซต์ดูมีลูกเล่นมากขึ้น สามารถชมผลงามเพิ่มเติมได้ที่",
+  scrap : "เนื่องจากมีประสบการณ์ทำงานในตำแหน่ง RPA Developer ซึ่งงานส่วนใหญ่จะใช้ web scraping ร่วมด้วยเสมอ ตัวอย่างเช่น รวบรวมข้อมูลราคาของไข่ไก่หรือสินค้าอื่น จากเว็บห้างขายปลีกต่างๆ เช่น Makro bigC Lotus เพื่อมาเปรียบเทียบราคาสำหรับ tools ที่ใช้ส่วนใหญ่คือ SAP iRPA และ puppeteer สามารถชมผลงามเพิ่มเติมได้ที่",
+  automation : "แน่นอนว่างาน่สวนใหญ่ที่ RPA Developer ต้องทำคือการทำ Automation ซึ่งรวมถึง web automation ด้วย ตัวอย่างเช่น scrape ข้อมูลจากเว็บ ลงมากรอกลง form ของอีกเว็บนึง เพราะทั้งเว็บนั้นไม่มี API ที่เชื่อมต่อกันได้ สำหรับ tools ที่ใช้ส่วนใหญ่คือ SAP iRPA และ puppeteer"
 }
-
 
 // markup
 const IndexPage = () => {
@@ -98,7 +97,13 @@ const IndexPage = () => {
             <div className="lg:max-w-md p-5 lg:p-0">
               <h2 className="text-white lg:text-xl font-regular mb-5">RPA Developer at Round2 Solutions</h2>
               <p className="text-gray text-sm lg:text-base">
-                Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. Prosciutto shankle shank chislic landjaeger boudin biltong jowl chicken pork. Sirloin chuck ham hock pork, cupim burgdoggen cow strip steak meatloaf brisket tenderloin tri-tip kielbasa. Ground round pork belly corned beef meatball. 
+              &emsp;Robotic Process Automation (RPA) คือการสร้างบอทขึ้นมาทำ automate tasks แมนมนุษย์ ตัวอย่างเช่น การนำข้อมูลจากแอพพลิเคชั่นนึงมากรอก ลงในอีกแอพพลิเคชั่น ซึ่งงานส่วนใหญ่ที่บอทจะมาทำแทนคืองานที่เป็น Repetitive task หรืองานที่ต้องทำซ้ำๆกัน เป็นเวลานานทุกๆวัน
+              <br/>
+              &emsp;RPA tools ที่ R2 ใช้คือ SAP iRPA ซึ่งเบื้องหลังของมันใช้ Nodejs เป็น runtime environment. SAP iRPA ใช้ได้ทั้งแบบ drag and drop และเขียน code ลงโดยตรง ใช้ภาษา javascript นอกจากนั้นจะใช้ node library อื่นมาช่วยเสริมในบางงานที่ SAP iRPA ไม่สามารถทำได้หรือทำได้ไม่ดี เช่น puppeteer moment.js
+              <br/>
+              &emsp;งาน RPA เป็นงานที่ต้องใช้ skill ที่หลากหลายเพราะเป็นงานที่ต้องทำ automationมาแทนที่ user ที่ใช้งานหลายโปรแกรมทำงานร่วมกัน เช่น spreadsheet, email, PDF, image, text document, web app, windows app, SAP ERP, file management, Line Chatbot, Line Notify
+              <br/>
+              &emsp;นอกเหนือจากงานด้านเทคนิคคอลแล้ว เนื่องจากทีม RPA เป็นทีมขนาดเล็ก RPA developer เลยได้มีโอกาสเข้าไร่วมเก็บ requirement จาก user โดยตรง หลังจากที่เสร็จงานแล้วก็ยังมี maintenance support โดยตรงกับลูกค้าด้วย
               </p>
               <div className="flex justify-center mt-11">
                 <CustomButton text={"More on About Me"}/>
