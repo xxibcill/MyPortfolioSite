@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 
 interface HiremeButtonProps {
     text: String
@@ -7,12 +8,12 @@ interface HiremeButtonProps {
 
 const HiremeButton : React.FunctionComponent<HiremeButtonProps> = (props) => {
     return (
-        <button 
-            type="button" 
+        <Link 
+            to="/about"
             className={`text-white bg-secondary hover:bg-secondary-highlight  hover:font-bold font-medium  rounded-md  text-md  w-fit px-2.5 py-2  outline-none  shadow-md ${props.isHiddenOnMobile? "hidden lg:block" : ""}`}
         >
             {props.text}
-        </button>
+        </Link>
     )
 }
 

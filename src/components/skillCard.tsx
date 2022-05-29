@@ -25,6 +25,7 @@ const SkillCard = ({ children ,header ,detail }: { children: React.ReactNode ,he
             <p className="text-sm lg:text-base mb-3 font-normal text-gray-400">
                 {detail}
             </p>
+            <a href="#" className="text-sm lg:text-base mt-3 font-light text-gray-400" >สามารถชมผลงามเพิ่มเติมได้ที่นี่</a>
         </div>
     ) as any as JSX.Element
 }

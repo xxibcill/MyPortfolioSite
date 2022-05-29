@@ -13,7 +13,7 @@ const Header : React.FunctionComponent<HeaderProps> = (props) => {
             <div className="container flex flex-wrap justify-between items-center mx-auto">
                 <a href="#" className="text-white lg:text-lg sm:text-sm md:text-md" >Chayanin<br/>Chanthananond</a>
                 <nav className="flex">
-                    <CustomButton text={"Offer me JOB!"} isHiddenOnMobile/>
+                    {/* <CustomButton text={"Offer me JOB!"} isHiddenOnMobile/> */}
                     <MenuIcon className="w-[30px] h-[30px] m-[10px] fill-white lg:hidden"/>
                 </nav>
             </div>

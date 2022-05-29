@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import CustomButton from '../components/CustomButton'
+import { Link } from "gatsby"
 import SkillCard from "../components/skillCard"
 import Coding from "../assets/svg//coding.svg";
 import Webdesign from "../assets/svg//webdesign.svg";
@@ -15,8 +16,8 @@ import { Canvas } from '@react-three/fiber'
 import TorusKnot from "../components/TorusKnot"
 
 const skillDetail = {
-  dev : "พัฒนาเว็บไซต์ทั้งแบบ content based และ application based โดยใช้ react เป็นหลัก และยังสามารถออกแบบเว็บได้ในระดับเบื้องต้น สามารถใช้ SVG animation หรือ Three js ให้เว็บไซต์ดูมีลูกเล่นมากขึ้น สามารถชมผลงามเพิ่มเติมได้ที่",
-  scrap : "เนื่องจากมีประสบการณ์ทำงานในตำแหน่ง RPA Developer ซึ่งงานส่วนใหญ่จะใช้ web scraping ร่วมด้วยเสมอ ตัวอย่างเช่น รวบรวมข้อมูลราคาของไข่ไก่หรือสินค้าอื่น จากเว็บห้างขายปลีกต่างๆ เช่น Makro bigC Lotus เพื่อมาเปรียบเทียบราคาสำหรับ tools ที่ใช้ส่วนใหญ่คือ SAP iRPA และ puppeteer สามารถชมผลงามเพิ่มเติมได้ที่",
+  dev : "พัฒนาเว็บไซต์ทั้งแบบ content based และ application based โดยใช้ react เป็นหลัก และยังสามารถออกแบบเว็บได้ในระดับเบื้องต้น สามารถใช้ SVG animation หรือ Three js ให้เว็บไซต์ดูมีลูกเล่นมากขึ้น",
+  scrap : "เนื่องจากมีประสบการณ์ทำงานในตำแหน่ง RPA Developer ซึ่งงานส่วนใหญ่จะใช้ web scraping ร่วมด้วยเสมอ ตัวอย่างเช่น รวบรวมข้อมูลราคาของไข่ไก่หรือสินค้าอื่น จากเว็บห้างขายปลีกต่างๆ เช่น Makro bigC Lotus เพื่อมาเปรียบเทียบราคาสำหรับ tools ที่ใช้ส่วนใหญ่คือ SAP iRPA และ puppeteer",
   automation : "แน่นอนว่างาน่สวนใหญ่ที่ RPA Developer ต้องทำคือการทำ Automation ซึ่งรวมถึง web automation ด้วย ตัวอย่างเช่น scrape ข้อมูลจากเว็บ ลงมากรอกลง form ของอีกเว็บนึง เพราะทั้งเว็บนั้นไม่มี API ที่เชื่อมต่อกันได้ สำหรับ tools ที่ใช้ส่วนใหญ่คือ SAP iRPA และ puppeteer"
 }
 
@@ -41,8 +42,8 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-        <div className="contianer w-full h-fit px-5 py-10 lg:p-0 lg:h-screen flex flex-col justify-center items-center">
-          {/* <h1 className="text-4xl text-white mb-36">What I can Do</h1> */}
+        <div className="container static flex flex-col justify-center h-fit px-5 py-10 lg:p-0 lg:h-screen mx-auto">
+          <h1 className="text-white w-full text-center my-6 text-xl lg:text-left lg:text-4xl lg:mb-20 z-20">What I can Do</h1>
           <div className="container flex flex-wrap justify-center lg:justify-between items-center">
             <SkillCard header="Web Development" detail={skillDetail.dev}>
               <Coding className="skill-icon"/>
@@ -55,10 +56,13 @@ const IndexPage = () => {
             </SkillCard>
           </div>
           <div className="container w-full flex justify-end mt-4 px-8 lg:mt-12 lg:px-0">
-            <a className="flex text-sm lg:text-md text-link-highlight" href="">
+            <Link 
+              to="/about" 
+              className="flex text-sm lg:text-md text-link-highlight" 
+            >
               More on About Me
               <ArrowRightCircle className="w-[15px] h-[15px] lg:w-[20px] lg:h-[20px] mt-[2px] lg:mt-0 ml-2 fill-link-highlight"/>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="container static flex flex-col justify-center h-fit px-5 py-10 lg:p-0 lg:h-screen mx-auto">
@@ -83,8 +87,8 @@ const IndexPage = () => {
             </div>
             <div className='canvas-container hidden lg:block w-2/5 h-[700px] z-20'>
               <Canvas >
-                <ambientLight />
-                <pointLight position={[10, 10, 10]} />
+                <ambientLight intensity={1.2}/>
+                <pointLight position={[10, 10, 10]} intensity={1.6}/>
                 <TorusKnot position={[0, 0, 0]} />
               </Canvas>
             </div>
