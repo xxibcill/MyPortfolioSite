@@ -8,7 +8,7 @@ This website is built using [Gatsby](https://www.gatsbyjs.com/), a modern static
 - [x] add Experience page
 - [x] do Responsive design
 - [x] Make it Responsive
-- [ ] add SVG Animation
+- [x] add SVG Animation
 - [ ] add Threejs
 - [ ] make Color Scheme
 - [ ] add test

@@ -10,6 +10,7 @@ import ProcessAutomation from "../assets/svg//process-automation.svg";
 import BusinessReport from "../assets/svg//business-report.svg";
 import Excel from "../assets/svg//excel.svg";
 import WorkProcess from "../assets/svg//work-process.svg";
+import Morph from "../assets/svg//Morph.svg";
 
 const skillDetail = {
   dev : "พัฒนาเว็บไซต์ทั้งแบบ content based และ application based โดยใช้ react เป็นหลัก และยังสามารถออกแบบเว็บได้ในระดับเบื้องต้น สามารถใช้ SVG animation หรือ Three js ให้เว็บไซต์ดูมีลูกเล่นมากขึ้น สามารถชมผลงามเพิ่มเติมได้ที่",
@@ -22,7 +23,9 @@ const IndexPage = () => {
   return (
       <Layout>
         <div className="w-full h-screen flex justify-center items-center">
-          <div className="relative h-4/5 w-4/5 lg:h-4/5 lg:w-3/5 bg-gray">Reserve for Three js Canvas
+          <div className="morph-container relative h-4/5 w-4/5 lg:h-4/5 lg:w-3/5">
+            <Morph className='morph left'/>
+            <Morph className='morph right'/>
             <div className="absolute top-1/2 lg:top-1/3 left-5 lg:-left-28"> 
               <h1 className="text-white text-3xl lg:text-5xl mb-10">
                 Hello There.<br/>

@@ -17,6 +17,7 @@ const SkillCard = ({ children ,header ,detail }: { children: React.ReactNode ,he
             mx-8
             my-3
             lg:m-0
+            z-20
         "
         >
             {children}
