@@ -33,11 +33,11 @@
   
 .morph.left{
     /* transform: scale(1) translate(-40%,50%) */
-    animation: move1 60s ease-in-out infinite;
+    animation: move1 120s ease-in-out infinite;
 }
   
 .morph.right{
-    animation: move2 120s ease-in-out infinite;
+    animation: move2 180s ease-in-out infinite;
 }
 
 :root {
@@ -49,11 +49,11 @@
 }
   
 @keyframes move1 {
-    0%   { transform: scale(1)   translate(-50%, -50%) rotate(0); fill: var(--firstColor); filter: drop-shadow( 20px 14px 10px var(--dropShadowColor)); }
+    0%   { transform: scale(1.2)   translate(-50%, -50%) rotate(0); fill: var(--firstColor); filter: drop-shadow( 20px 14px 10px var(--dropShadowColor)); }
     25%  { transform: scale(0.8) translate(5rem, 10rem) rotate(55deg); fill: var(--secondColor); filter: drop-shadow( 14px 14px 6px var(--dropShadowColor)); }
-    50%  { transform: scale(0.6) translate(75%, 75%) rotate(180deg); fill: var(--thirdColor); filter: drop-shadow( -16px -16px 16px var(--dropShadowColor)); }
+    50%  { transform: scale(0.5) translate(75%, 75%) rotate(180deg); fill: var(--thirdColor); filter: drop-shadow( -16px -16px 16px var(--dropShadowColor)); }
     75%  { transform: scale(0.8) translate(-5rem, -10rem) rotate(55deg); fill: var(--fourthColor); filter: drop-shadow( 14px 14px 6px var(--dropShadowColor)); }
-    100% { transform: scale(1)   translate(-50%, -50%) rotate(0); fill: var(--firstColor); filter: drop-shadow( 20px 14px 10px var(--dropShadowColor)); }
+    100% { transform: scale(1.2)   translate(-50%, -50%) rotate(0); fill: var(--firstColor); filter: drop-shadow( 20px 14px 10px var(--dropShadowColor)); }
 }
 
 @keyframes move2 {

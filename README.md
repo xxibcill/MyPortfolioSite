@@ -9,7 +9,7 @@ This website is built using [Gatsby](https://www.gatsbyjs.com/), a modern static
 - [x] do Responsive design
 - [x] Make it Responsive
 - [x] add SVG Animation
-- [ ] add Threejs
+- [x] add Threejs
 - [ ] make Color Scheme
 - [ ] add test
 - [ ] Performance benchmark

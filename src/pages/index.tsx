@@ -11,6 +11,8 @@ import BusinessReport from "../assets/svg//business-report.svg";
 import Excel from "../assets/svg//excel.svg";
 import WorkProcess from "../assets/svg//work-process.svg";
 import Morph from "../assets/svg//Morph.svg";
+import { Canvas } from '@react-three/fiber'
+import TorusKnot from "../components/TorusKnot"
 
 const skillDetail = {
   dev : "พัฒนาเว็บไซต์ทั้งแบบ content based และ application based โดยใช้ react เป็นหลัก และยังสามารถออกแบบเว็บได้ในระดับเบื้องต้น สามารถใช้ SVG animation หรือ Three js ให้เว็บไซต์ดูมีลูกเล่นมากขึ้น สามารถชมผลงามเพิ่มเติมได้ที่",
@@ -22,7 +24,7 @@ const skillDetail = {
 const IndexPage = () => {
   return (
       <Layout>
-        <div className="w-full h-screen flex justify-center items-center">
+        <div className="w-full h-screen flex justify-center items-center overflow-hidden">
           <div className="morph-container relative h-4/5 w-4/5 lg:h-4/5 lg:w-3/5">
             <Morph className='morph left'/>
             <Morph className='morph right'/>
@@ -61,8 +63,8 @@ const IndexPage = () => {
         </div>
         <div className="container static flex flex-col justify-center h-fit px-5 py-10 lg:p-0 lg:h-screen mx-auto">
           <h1 className="text-white w-full text-center my-6 text-xl lg:text-left lg:text-4xl lg:mb-36 z-20">Experience</h1>
-          <div className="w-full flex justify-between">
-            <div className="w-full lg:w-1/3 flex flex-col items-center justify-center z-20">
+          <div className="w-full flex justify-center ">
+            <div className="w-full lg:w-1/3 lg:mx-14 flex flex-col items-center justify-center z-20">
               <div className="exp-card">
                 <h4 className="text-sm text-gray">{"June 2019 - August 2019"}</h4>
                 <h2 className="text-xl mt-2 mb-4 text-white">{"Frontend Developer (Intern) at KBTG"}</h2>
@@ -79,8 +81,14 @@ const IndexPage = () => {
                 <p className="text-md text-gray-400">{"Work on Internal project using React and Redux , the project is implement some feature of basic CRM.I'm responsible for create UI using React and design using Adobe XD."}</p>
               </div>
             </div>
-            <canvas className="hidden lg:block w-1/2 h-[700px] bg-gray-dark z-20"></canvas>
-          </div>
+            <div className='canvas-container hidden lg:block w-2/5 h-[700px] z-20'>
+              <Canvas >
+                <ambientLight />
+                <pointLight position={[10, 10, 10]} />
+                <TorusKnot position={[0, 0, 0]} />
+              </Canvas>
+            </div>
+        </div>
         </div>
         <div className="container static flex flex-col justify-center h-fit px-5 py-10 lg:p-0 lg:h-screen mx-auto">
         {/* <div className="contianer w-full h-screen flex flex-col justify-center items-center"> */}

@@ -15,6 +15,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@react-three/fiber": "^7.0.29",
+    "@types/three": "^0.140.0",
     "gatsby": "^4.14.0",
     "gatsby-plugin-image": "^2.14.1",
     "gatsby-plugin-react-svg": "^3.1.0",
@@ -22,7 +24,8 @@
     "gatsby-source-filesystem": "^4.14.0",
     "gatsby-transformer-sharp": "^4.14.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "three": "^0.141.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.31",
