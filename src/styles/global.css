@@ -63,3 +63,15 @@
     75%  { transform: scale(1) translate(66%, 0%) rotate(180deg); fill: #280886; filter: drop-shadow( 14px 14px 6px var(--dropShadowColor)); }
     100% { transform: scale(0.5)   translate(60%, -50%) rotate(90deg); fill: #885FFF; filter: drop-shadow( 20px 14px 10px var(--dropShadowColor)); }
 }
+
+.expandable{
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    transition: width 2s linear, height 2s linear;
+}
+
+.expandable--active{
+    width: 100%;
+    height: auto;
+}

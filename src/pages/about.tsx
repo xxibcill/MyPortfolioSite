@@ -14,7 +14,7 @@ import PythonSVG from "../assets/svg/python.svg"
 import TypescriptSVG from "../assets/svg/typescript.svg"
 import NodejsSVG from "../assets/svg/nodejs.svg"
 import FigmaSVG from "../assets/svg/figma.svg"
-
+import ExpandSkill from "../components/ExpandSkill"
 // markup
 const AboutMe = () => {
   return (
@@ -76,8 +76,8 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="bg-blue-light">
-          <div className="container flex flex-col justify-center h-fit md:h-screen mx-auto px-5 py-11">
-            <h1 className="text-gray-dark font-regular w-full text-center text-2xl mb-5 md:text-3xl md:mb-12 lg:text-left lg:mb-24 z-20 ">Skill Set</h1>
+          <div className="container flex flex-col justify-center h-fit mx-auto px-5 py-11">
+            <h1 className="text-gray-dark font-regular w-full text-center text-2xl mb-5 md:text-3xl md:mb-12 lg:text-left lg:my-24 z-20 ">Skill Set</h1>
             <div>
               <h2 className="w-full text-center text-xl text-gray-dark font-light my-12">Proficiently</h2>
               <div className="flex justify-center">
@@ -97,10 +97,7 @@ const AboutMe = () => {
               </div>
             </div>
             <div>
-              <h2 className="w-full text-center text-sm text-gray-dark font-light my-12">
-                some small skill I have but not neccessory for you to know
-                if you curious to know. click here to expand
-              </h2>
+              <ExpandSkill/>
             </div>
           </div>
         </div>

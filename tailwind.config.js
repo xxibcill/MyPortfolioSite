@@ -24,7 +24,7 @@ module.exports = {
       'gray-light': '#d3dce6',
       'black': '#000000',
       'white': '#ffffff',
-      'link-highlight': '#DC7F7F',
+      'link-highlight': '#5BC0BE',
       'blue-light': '#D9E8F6',
       'see-through': '#343434'
     },
