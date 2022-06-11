@@ -1,8 +1,8 @@
 import React ,{useState} from "react"
 
-// Declaring type of props - see "Typing Component Props" for more examples
 type ExpandSkillProps = {
-}; /* use `interface` if exporting so that consumers can extend */
+    
+};
 
 const skillSet = [
     "Three js",

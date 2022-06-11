@@ -1,6 +1,13 @@
 import * as React from "react"
 
-const SkillCard = ({ children ,header ,detail }: { children: React.ReactNode ,header :String ,detail :String }) => {
+type SkillCardProps = {
+    children: React.ReactNode ,
+    header: string ,
+    detail: string,
+    href: string
+};
+
+const SkillCard = ({ children ,header ,detail ,href }: SkillCardProps) => {
     return (
         <div className="
             max-w-sm 
@@ -25,7 +32,7 @@ const SkillCard = ({ children ,header ,detail }: { children: React.ReactNode ,he
             <p className="text-sm lg:text-base mb-3 font-normal text-gray-400">
                 {detail}
             </p>
-            <a href="#" className="text-sm lg:text-base mt-3 font-light text-gray-400" >สามารถชมผลงามเพิ่มเติมได้ที่นี่</a>
+            <a href={href} target="_blank" className="text-sm lg:text-base mt-3 font-light text-gray-400" >สามารถชมผลงามเพิ่มเติมได้ที่นี่</a>
         </div>
     ) as any as JSX.Element
 }

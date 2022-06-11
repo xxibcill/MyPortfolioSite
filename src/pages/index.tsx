@@ -45,13 +45,13 @@ const IndexPage = () => {
         <div className="container static flex flex-col justify-center h-fit px-5 py-10 lg:p-0 lg:h-screen mx-auto">
           <h1 className="text-white w-full text-center my-6 text-xl lg:text-left lg:text-4xl lg:mb-20 z-20">What I can Do</h1>
           <div className="container flex flex-wrap justify-center lg:justify-between items-center">
-            <SkillCard header="Web Development" detail={skillDetail.dev}>
+            <SkillCard href={"https://github.com/xxibcill/restaurant-management-app"} header="Web Development" detail={skillDetail.dev}>
               <Coding className="skill-icon"/>
             </SkillCard>
-            <SkillCard header="Web Scraping" detail={skillDetail.scrap}>
+            <SkillCard href={"https://github.com/xxibcill/wongnai-scraping"} header="Web Scraping" detail={skillDetail.scrap}>
               <Webdesign className="skill-icon"/>
             </SkillCard>
-            <SkillCard header="Web Automation" detail={skillDetail.automation}>
+            <SkillCard href={"https://github.com/xxibcill/wongnai-scraping"} header="Web Automation" detail={skillDetail.automation}>
               <Automation className="skill-icon"/>
             </SkillCard>
           </div>
