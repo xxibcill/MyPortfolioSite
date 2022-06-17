@@ -14,6 +14,7 @@ import WorkProcess from "../assets/svg//work-process.svg";
 import Morph from "../assets/svg//Morph.svg";
 import { Canvas } from '@react-three/fiber'
 import TorusKnot from "../components/TorusKnot"
+import { Helmet } from "react-helmet"
 
 const skillDetail = {
   dev : "พัฒนาเว็บไซต์ทั้งแบบ content based และ application based โดยใช้ react เป็นหลัก และยังสามารถออกแบบเว็บได้ในระดับเบื้องต้น สามารถใช้ SVG animation หรือ Three js ให้เว็บไซต์ดูมีลูกเล่นมากขึ้น",
@@ -25,6 +26,11 @@ const skillDetail = {
 const IndexPage = () => {
   return (
       <Layout>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Chayanin Profoilo</title>
+          <link rel="icon" href="../assets/favicon.png"></link>
+        </Helmet>
         <div className="w-full h-screen flex justify-center items-center overflow-hidden">
           <div className="morph-container relative h-4/5 w-4/5 lg:h-4/5 lg:w-3/5">
             <Morph className='morph left'/>

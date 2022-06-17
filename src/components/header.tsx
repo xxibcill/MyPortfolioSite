@@ -16,9 +16,9 @@ const Header : React.FunctionComponent<HeaderProps> = (props) => {
             >
                 Chayanin<br/>Chanthananond
             </Link>
-                <nav className="flex">
-                     <MenuIcon className="w-[30px] h-[30px] m-[10px] fill-white lg:hidden"/>
-                </nav>
+            {/* <nav className="flex">
+                    <MenuIcon className="w-[30px] h-[30px] m-[10px] fill-white lg:hidden"/>
+            </nav> */}
             </div>
         </header> 
     )

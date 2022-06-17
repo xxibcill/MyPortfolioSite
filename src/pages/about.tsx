@@ -15,10 +15,17 @@ import TypescriptSVG from "../assets/svg/typescript.svg"
 import NodejsSVG from "../assets/svg/nodejs.svg"
 import FigmaSVG from "../assets/svg/figma.svg"
 import ExpandSkill from "../components/ExpandSkill"
+import { Helmet } from "react-helmet"
+
 // markup
 const AboutMe = () => {
   return (
       <Layout>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>About Chayanin</title>
+          <link rel="icon" href="../assets/favicon.png"></link>
+        </Helmet>
         {/* <Abstract className="fill-gray absolute left-10 top-80 z-10 w-[700px] h-[700px]" /> */}
         {/* for measure height of header */}
         <div className="bg-primary-blend-dark px-4 md:px-4 py-4 md:py-2 mb-2 lg:hidden invisible">
